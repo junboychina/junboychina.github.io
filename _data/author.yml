@@ -1,9 +1,9 @@
 # Author settings
 name: Jun Li
-title: MS student in New York Student
+title: MS student in New York University
 address: New York City, U.S.
 email: jl7333@nyu.edu
-github: https://github.com/junboychina
+github: junboychina
 gavatar: /assets/img/avatar.JPG
 workHistory:
 - work3:
@@ -31,6 +31,14 @@ workHistory:
   description: 在嵌入式 Linux 环境下开发程序 (信号发生器，监控摄像头)
 
 educationHistory:
+- education2:
+  organization: New York University
+  degree: Master
+  major: Information Engineering
+  started: 2009
+  duration: (2009.9- 2013.7)
+  description: C/C++, MATLAB, Linux, 培训并参加过 ACM 比赛
+
 - education1:
   organization: Nanjing University of Aeronautics and Astronautics
   degree: Bachelor of Engineering
