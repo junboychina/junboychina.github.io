@@ -19,11 +19,11 @@ workHistory:
   location: ECE department of NYU, Brooklyn, NY
   title: Research Assistant
   started: 2016
-  duration: (2016.1 - 2016.5)
+  duration: (2016.1 - now)
   description: Localization based on Machine Learning and Deep Learning
 
 educationHistory:
-- education2:
+- education3:
   organization: New York University
   degree: Master
   major: Electrical Engineering
@@ -31,13 +31,21 @@ educationHistory:
   duration: (2015.9- 2017.7)
   description: Work as Research Assistant in NYU Wireless lab and MMVC lab.
 
-- education1:
+- education2:
   organization: Nanjing University of Aeronautics and Astronautics
   degree: Bachelor of Engineering
   major: Information Engineering
   started: 2009
   duration: (2009.9- 2013.7)
   description: Matlab, C/C++, ARM development
+
+- education1:
+  organization: Zhengzhou Foreign Language School
+  degree: High School
+  major: National Physics Competition
+  started: 2006
+  duration: (2006.9- 209.7)
+  description: Recommended to Nanjing University of Aeronautics and Astronautics
 languages:
 - language1:
   name: Chinese(中文)
@@ -47,7 +55,7 @@ languages:
   proficiency: Limit
 programmingSkills:
 - Matlab:
-  name: Java/Android
+  name: Matlab
   percentage: 90%
 - C++:
   name: C++
