@@ -10,11 +10,11 @@ excerpt_separator: "```"
 
 从此告别微信，我要在这里潜心学术，写一些有关科研方面的心得体会和技术类文章，偶尔也会掺杂一些杂文随笔性质的文章，为这个世界留下一些自己的痕迹。如果自己的文章能恰巧帮助到了其他人，那就更好了。
 
-本博客使用 [jekyll](http://jekyll.bootcss.com/) + [bootstrap](http://v3.bootcss.com) 搭建!
+本博客使用 jekyll + bootstrap搭建!
 
-感谢 [github](https://github.com) 提供的 Github Pages 功能!
+感谢 github 提供的 Github Pages 功能!
 
-此博客布局参考了 [liungkejin](http://github.com/liungkejin) 博客
+此博客布局参考了 liungkejin 博客
 
-个人页面应用了 [resumecard](http://ddbullfrog.github.io/resumecard/) 项目
+个人页面应用了 resumecard 项目
 
