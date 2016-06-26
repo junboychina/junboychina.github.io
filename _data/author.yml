@@ -52,20 +52,23 @@ languages:
   proficiency: Native
 - language2:
   name: English
-  proficiency: Limit
+  proficiency: Fluent
 programmingSkills:
 - Matlab:
   name: Matlab
+  percentage: 95%
+- C/C++:
+  name: C/C++
   percentage: 90%
-- C++:
-  name: C++
-  percentage: 60%
 - Swift:
   name: Swift
-  percentage: 30%
+  percentage: 60%
 - Python:
   name: Python
-  percentage: 30%
+  percentage: 60%
 - R:
   name: R
-  percentage: 30%
+  percentage: 60%
+- JavaScript:
+  name: JavaScript
+  percentage: 60%
