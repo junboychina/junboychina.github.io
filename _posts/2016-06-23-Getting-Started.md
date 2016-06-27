@@ -1,7 +1,7 @@
 ---
 layout: post_layout
 title: 热烈庆祝李骏个人网站搭建成功！
-time: 2016年06月23日 星期四
+time: 2016年06月23日 Thursday
 location: 纽约
 pulished: true
 excerpt_separator: "```"

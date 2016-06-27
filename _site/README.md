@@ -1,5 +1,4 @@
 # Jun Li
 
-> Hi,everyone! This is My Blog Webpage
+> Hi,everyone! Welcome to My Webpage!
 
-![Blog](/assets/img/blog.png)
