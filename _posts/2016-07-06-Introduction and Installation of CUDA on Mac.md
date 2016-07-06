@@ -282,16 +282,21 @@ jing qing qi dai, xie xie
 ## 5. FAQ
 I met some problems after installation. I have google them but there is no specific answer for these questions. So I decided to write down my solutions for them. Hope this can help you and save your time.
 
-***Q1:  When complie the CUDA samples, report error as below*** 
->error: unable to open output file 'vectorAdd.o': 'Permission denied'
->1 error generated.
->make: *** [vectorAdd.o] Error 1
+---------
 
-***A1:***  The CUDA samples' directory is not writable. You just need to add `sudo` in front of your command like this `sudo make -C 0_Simple/vectorAdd`.
-Alternatively, you can copy the CUDA samples files to your home directory, then compile them there.
+#### ***Q1:  When complie the CUDA samples, report error as below*** 
 
+```
+error: unable to open output file 'vectorAdd.o': 'Permission denied'
+1 error generated.
+make: *** [vectorAdd.o] Error 1
+```
 
-***Q2:  Still Can't find "nvcc" commend after install the CUDA? like this*** `nvcc: command not found`
+***A1:***  The CUDA samples' directory is not writable. You just need to add `sudo` in front of your command like this `sudo make -C 0_Simple/vectorAdd`. Alternatively, you can copy the CUDA samples files to your home directory, then compile them there.
+
+---------
+
+#### ***Q2:  Still Cannot find "nvcc" commend after install the CUDA? like this*** `nvcc: command not found`
 
 ***A2:*** Actually you have installed the CUDA driver, CUDA Toolkit and CUDA samples after finishing all the steps above. But you didn't add the path of NVCC to your system. Just like the PATH in Matlab, if the function is not in your current path, you cannot call it. So you cannot call `nvcc` complier without specifying the full path of `nvcc` in the Terminal.
 

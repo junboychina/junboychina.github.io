@@ -358,15 +358,21 @@ Result = PASS
 <h2 id="faq">5. FAQ</h2>
 <p>I met some problems after installation. I have google them but there is no specific answer for these questions. So I decided to write down my solutions for them. Hope this can help you and save your time.</p>
 
-<p><strong><em>Q1:  When complie the CUDA samples, report error as below</em></strong> 
-&gt;error: unable to open output file ‘vectorAdd.o’: ‘Permission denied’
-&gt;1 error generated.
-&gt;make: *** [vectorAdd.o] Error 1</p>
+<hr />
 
-<p><strong><em>A1:</em></strong>  The CUDA samples’ directory is not writable. You just need to add <code class="highlighter-rouge">sudo</code> in front of your command like this <code class="highlighter-rouge">sudo make -C 0_Simple/vectorAdd</code>.
-Alternatively, you can copy the CUDA samples files to your home directory, then compile them there.</p>
+<h4 id="q1--when-complie-the-cuda-samples-report-error-as-below"><strong><em>Q1:  When complie the CUDA samples, report error as below</em></strong></h4>
 
-<p><strong><em>Q2:  Still Can’t find “nvcc” commend after install the CUDA? like this</em></strong> <code class="highlighter-rouge">nvcc: command not found</code></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>error: unable to open output file 'vectorAdd.o': 'Permission denied'
+1 error generated.
+make: *** [vectorAdd.o] Error 1
+</code></pre>
+</div>
+
+<p><strong><em>A1:</em></strong>  The CUDA samples’ directory is not writable. You just need to add <code class="highlighter-rouge">sudo</code> in front of your command like this <code class="highlighter-rouge">sudo make -C 0_Simple/vectorAdd</code>. Alternatively, you can copy the CUDA samples files to your home directory, then compile them there.</p>
+
+<hr />
+
+<h4 id="q2--still-cannot-find-nvcc-commend-after-install-the-cuda-like-this-nvcc-command-not-found"><strong><em>Q2:  Still Cannot find “nvcc” commend after install the CUDA? like this</em></strong> <code class="highlighter-rouge">nvcc: command not found</code></h4>
 
 <p><strong><em>A2:</em></strong> Actually you have installed the CUDA driver, CUDA Toolkit and CUDA samples after finishing all the steps above. But you didn’t add the path of NVCC to your system. Just like the PATH in Matlab, if the function is not in your current path, you cannot call it. So you cannot call <code class="highlighter-rouge">nvcc</code> complier without specifying the full path of <code class="highlighter-rouge">nvcc</code> in the Terminal.</p>
 
