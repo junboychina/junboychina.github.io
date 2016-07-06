@@ -127,7 +127,7 @@
   <li>Add more processors which means we ask a lot of small computers work simultaneously <strong>(This is parallel programming)</strong></li>
 </ul>
 
-<p>So we know what the parallel programming is.</p>
+<p>Now we know what the parallel programming is.</p>
 
 <p>CUDA is a parallel computing platform and programming model invented by NVIDIA. We use CUDA programming to transfer data from CPU to GPU for parallel computing.</p>
 
@@ -388,25 +388,24 @@ make: *** [vectorAdd.o] Error 1
 
 <p><strong><em>The recommended way is by editing your <code class="highlighter-rouge">.bash_profile</code> file. This file is read and the commands in it executed by Bash every time you log in to the system. The following steps I collated are how to add PATH to <code class="highlighter-rouge">.bash_profile</code>.</em></strong></p>
 
-<ol>
+<ul>
   <li>You can check your path like this: <code class="highlighter-rouge">echo $PATH</code></li>
   <li>You will get result like this. There are totally 7 default paths. However, there is no path for CUDA!  That’s why you cannot find nvcc command.</li>
-</ol>
+</ul>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>/Users/jun/anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin
 </code></pre>
 </div>
-
-<ol>
+<ul>
   <li>If you have created a <code class="highlighter-rouge">.bash_profile</code> before, you only need to enter  <code class="highlighter-rouge">open ~/.bash_profile</code>. 
 Else, you need to create a bash_profile at first, then open it. Like this<code class="highlighter-rouge">touch ~/.bash_profile; open ~/.bash_profile</code></li>
   <li>Write the code below in this file:
- <code class="highlighter-rouge">export LD_LIBRARY_PATH=/usr/local/cuda/lib</code>
- <code class="highlighter-rouge">export PATH=$PATH:/usr/local/cuda/bin</code></li>
+  <code class="highlighter-rouge">export LD_LIBRARY_PATH=/usr/local/cuda/lib</code>
+  <code class="highlighter-rouge">export PATH=$PATH:/usr/local/cuda/bin</code></li>
   <li>Then save and logout. This will add the PATH of nvcc to your system path automatically every time you login your terminal.</li>
   <li>After relaunched your terminal ! Use <code class="highlighter-rouge">nvcc -V</code> You will find result like this, it illustrates your <code class="highlighter-rouge">nvcc</code>command is available: <code class="highlighter-rouge">nvcc: NVIDIA (R) Cuda compiler driver; Copyright (c) 2005-2015 NVIDIA Corporation</code></li>
   <li>You can also check it like this <code class="highlighter-rouge">echo $PATH</code>, you will find a new path of CUDA at last. Congratulations! You make it!</li>
-</ol>
+</ul>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>/Users/jun/anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/cuda/bin
 </code></pre>
