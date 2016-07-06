@@ -319,10 +319,19 @@ Actually, there are totally 3 methods for Bourne Shell environment variable conf
 - If you have created a `.bash_profile` before, you only need to enter  `open ~/.bash_profile`. 
 Else, you need to create a bash_profile at first, then open it. Like this`touch ~/.bash_profile; open ~/.bash_profile`
 - Write the code below in this file:
-    `export LD_LIBRARY_PATH=/usr/local/cuda/lib`
-    `export PATH=$PATH:/usr/local/cuda/bin`
+
+```
+export LD_LIBRARY_PATH=/usr/local/cuda/lib
+export PATH=$PATH:/usr/local/cuda/bin
+```
 - Then save and logout. This will add the PATH of nvcc to your system path automatically every time you login your terminal.
-- After relaunched your terminal ! Use `nvcc -V` You will find result like this, it illustrates your `nvcc`command is available: `nvcc: NVIDIA (R) Cuda compiler driver; Copyright (c) 2005-2015 NVIDIA Corporation` 
+- After relaunched your terminal ! Use `nvcc -V` You will find result like this, it illustrates your `nvcc`command is available: 
+
+```
+nvcc: NVIDIA (R) Cuda compiler driver 
+Copyright (c) 2005-2015 NVIDIA Corporation
+```
+
 - You can also check it like this `echo $PATH`, you will find a new path of CUDA at last. Congratulations! You make it!
 
 ```

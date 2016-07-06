@@ -399,11 +399,24 @@ make: *** [vectorAdd.o] Error 1
 <ul>
   <li>If you have created a <code class="highlighter-rouge">.bash_profile</code> before, you only need to enter  <code class="highlighter-rouge">open ~/.bash_profile</code>. 
 Else, you need to create a bash_profile at first, then open it. Like this<code class="highlighter-rouge">touch ~/.bash_profile; open ~/.bash_profile</code></li>
-  <li>Write the code below in this file:
-  <code class="highlighter-rouge">export LD_LIBRARY_PATH=/usr/local/cuda/lib</code>
-  <code class="highlighter-rouge">export PATH=$PATH:/usr/local/cuda/bin</code></li>
+  <li>Write the code below in this file:</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>export LD_LIBRARY_PATH=/usr/local/cuda/lib
+export PATH=$PATH:/usr/local/cuda/bin
+</code></pre>
+</div>
+<ul>
   <li>Then save and logout. This will add the PATH of nvcc to your system path automatically every time you login your terminal.</li>
-  <li>After relaunched your terminal ! Use <code class="highlighter-rouge">nvcc -V</code> You will find result like this, it illustrates your <code class="highlighter-rouge">nvcc</code>command is available: <code class="highlighter-rouge">nvcc: NVIDIA (R) Cuda compiler driver; Copyright (c) 2005-2015 NVIDIA Corporation</code></li>
+  <li>After relaunched your terminal ! Use <code class="highlighter-rouge">nvcc -V</code> You will find result like this, it illustrates your <code class="highlighter-rouge">nvcc</code>command is available:</li>
+</ul>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>nvcc: NVIDIA (R) Cuda compiler driver 
+Copyright (c) 2005-2015 NVIDIA Corporation
+</code></pre>
+</div>
+
+<ul>
   <li>You can also check it like this <code class="highlighter-rouge">echo $PATH</code>, you will find a new path of CUDA at last. Congratulations! You make it!</li>
 </ul>
 
