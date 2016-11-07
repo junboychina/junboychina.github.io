@@ -302,7 +302,7 @@ to re-attach to your running session.
 
 In this exercise, our goal is to retrieve and process a set of data files about CitiBike. We get the CitiBike data from 2016-01 to 2016-09. The data structure is .csv file like this:
 
-<img src="/assets/img/Shell and Git/1.png" width="400px" />
+<img src="/assets/img/Shell and Git/1.png" width="640px" />
 
 Our output should be a file in which each row is the name of a station and the number of times it appears as either the "start station" or "end station" in the dataset. The file should be sorted so that the most popular stations are at the top. We should write all the code in one shell script so that we can reproduce in the future.
 
