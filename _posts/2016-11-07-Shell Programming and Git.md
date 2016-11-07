@@ -1,29 +1,24 @@
 ---
 layout: post_layout
-title: Shell Programming and Git
+title: Shell Programming 
 time: 2016年11月07日 Monday
 location: 纽约
 pulished: true
 excerpt_separator: "```"
 ---
-Today, I want to summarize some useful shell programming and git skills for ease of reference. These are just some basic commands but I used to forget them and have to Google them over and over and over again.
+Today, I want to summarize some useful shell programming for ease of reference. These are just some basic commands but I used to forget them and have to Google them over and over and over again.
 
 ## Overview
 
-1. **Shell Command Line**
-   - **Basic Bash Shell**
-   - **Manipulate Output**
-   - **Loops and Conditionals**
-   - **Workig with Remote Server**
-   - **Shell Scripts**
-   - **A Simple Practice Task:Sort CitiBike Data**
-2. **Git**
-   - **Basic Git Workflow**
-   - **Using Branches**
-   - **Resolving Conflicts**
-3. **Reference**
+- **Basic Bash Shell**
+- **Manipulate Output**
+- **Loops and Conditionals**
+- **Workig with Remote Server**
+- **Shell Scripts**
+- **A Simple Practice Task:Sort CitiBike Data**
+- **Reference**
 
-## 1-1. Basic Bash Shell
+## 1. Basic Bash Shell
 
 First, enter your "Terminal". The most useful and common commands as follows:
 
@@ -61,7 +56,7 @@ First, enter your "Terminal". The most useful and common commands as follows:
 
 - **!1** :run a command that appears as number 1 in your history
 
-## 1-2. Manipulate Output
+## 2. Manipulate Output
 
 First, we need to find some data for practice, for example: run
 
@@ -126,7 +121,7 @@ grep "book" README.txt | wc -l
 
 Note: ">" means cover the original content in the file. ">>" means not cover, new data will append to the file instead.
 
-## 1-3. Loops and Conditionals
+## 3. Loops and Conditionals
 
 Like most of the programming languages, Bash supports loops and conditionals.
 
@@ -195,7 +190,7 @@ done
 
 - **Exercies5:** Print a message only if an integer value is greater than 10
 
-## 1-4. Workig with Remote Server
+## 4. Workig with Remote Server
 
 In the previous section, we have used "wget" to get data files from the Internet onto our local system. Now we need to copy files from a remote system which we access with "SSH" to our local machine. 
 First, we need to log in the remote server, you need to know the server's name and password.
@@ -231,7 +226,7 @@ curl --upload-file ./README.txt https://www.*****.com/README.txt
 
 This will return a URL which you can see and download the file you have just uploaded.
 
-## 1-5. Shell Scripts
+## 5. Shell Scripts
 
 Now we need to do something more complicated, we need to create a workflow. Save all the steps in one file, and run this file whenever we need. It is called Shell Script.
 First, we create a file use:
@@ -298,7 +293,7 @@ screen -R jun_new_session
  
 to re-attach to your running session.
 
-## 1-6. A Simple Practice Task:Sort CitiBike Data
+## 6. A Simple Practice Task:Sort CitiBike Data
 
 In this exercise, our goal is to retrieve and process a set of data files about CitiBike. We get the CitiBike data from 2016-01 to 2016-09. The data structure is .csv file like this:
 
@@ -356,7 +351,10 @@ jl7333@server:~/citibike/data$
 
 It shows that Pershing Square North station is the most popular station in which bikes are used for 221327 times in the past nine months. Maybe it should put more bikes there in the future.
 
+## 6. Reference
 
+1.Scientific Computing Workshop from NYU Tandon Department of ECE
+2.Stack Overflow
 
 
 
