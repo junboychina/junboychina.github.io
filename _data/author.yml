@@ -20,7 +20,7 @@ workHistory:
   title: Research Assistant
   started: 2016
   duration: (2016.1 - now)
-  description: Localization based on Machine Learning 
+  description: Localization based on Machine Learning, Probabilistic Graphical Model
 
 educationHistory:
 - education3:
@@ -28,7 +28,7 @@ educationHistory:
   degree: Master
   major: Electrical Engineering
   started: 2015
-  duration: (2015.9- 2017.7)
+  #duration: (2015.9- 2017.7)
   description: Work as Research Assistant in NYU Wireless lab and MMVC lab.
 
 - education2:
@@ -36,7 +36,7 @@ educationHistory:
   degree: Bachelor of Engineering
   major: Information Engineering
   started: 2009
-  duration: (2009.9- 2013.7)
+  #duration: (2009.9- 2013.7)
   description: Matlab, C/C++, ARM development
 
 - education1:
@@ -44,7 +44,7 @@ educationHistory:
   degree: High School
   major: National Physics Competition
   started: 2006
-  duration: (2006.9- 2009.7)
+  #duration: (2006.9- 2009.7)
   description: Recommended to Nanjing University of Aeronautics and Astronautics
 languages:
 - language1:
