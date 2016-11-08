@@ -20,7 +20,7 @@ Git is a free and open source distributed version control system. Today, I just 
 
 ## 1. Git Initialization
 
-First, we need to onfigure our git client, especially when you use a new computer for the first time. This step will tell your computer who you are, and it is also convenient for a project with multiple contributors.
+First, we need to configure our git client, especially when you use a new computer for the first time. This step will tell your computer who you are, and it is also convenient for a project with multiple contributors.
 
 ```
 git gonfig --global user.name "your name"
