@@ -40,15 +40,15 @@ The bank is able to observe a customer’s **income**, **the amount of assets** 
 
 Then we need to specify the relationship of these nodes. In practice,we need to using a lot of data to train the best inference between these nodes Here, we just use our common sense to give a brief relationship and establish a simple model. For example, if the person has a bad payment history, there will be a high probability that he is not reliable. The following network is what I create, you might not be able to establish a exactly same network. But you should satisfy:
 
-> P(R = Reliable|H = Excellent) > P(R = Reliable | H = Acceptable) > P(R = Reliable | H = Unacceptable).
+> P(R = Reliable|H = Excellent) > P(R = Reliable &#124; H = Acceptable) > P(R = Reliable &#124; H = Unacceptable).
 
 Here, H denotes "history". The following figure is setting H=excellent and H=unacceptable, we can find :
 
-> P( Credit-worthness = Positive | H = Excellent)= 74.65% 
+> P( Credit-worthness = Positive &#124; H = Excellent)= 74.65% 
 
 <img src="/assets/img/PGM/3.png" width="640px" />
 
-> P( Credit-worthness = Positive | H = Unacceptable)= 39.91%. 
+> P( Credit-worthness = Positive &#124; H = Unacceptable)= 39.91%. 
 
 <img src="/assets/img/PGM/4.png" width="640px" />
 
