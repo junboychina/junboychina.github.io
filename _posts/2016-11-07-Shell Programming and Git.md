@@ -22,7 +22,7 @@ Today, I want to summarize some useful shell programming for ease of reference. 
 
 First, enter your "Terminal". The most useful and common commands as follows:
 
-- `jl7333@server:~$` : it shows my username(jl7333), hostname(server),my current working directory(~), showing that I am working as a normal(unprivileged) user($).
+- **jl7333@server:~$** : it shows my username(jl7333), hostname(server),my current working directory(~), showing that I am working as a normal(unprivileged) user($).
 
 - **ls** :list the contents of the directory you are in. (ls -l, ls -lt, ls -ltr, you can check using ls --help)
 
