@@ -5,7 +5,7 @@
 .bloghead {
     position: relative;
     /*padding: 2rem 1rem;*/
-    font-weight: 200;
+    font-weight: 400;
     color: #333;
     text-align: left;;
     /*text-shadow: 0 1px 0 rgba(0,0,0,.1);*/
@@ -27,7 +27,7 @@
 }
 
 .blogtitle {
-  font-weight: 400;
+  font-weight: 600;
   color: #000;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -73,7 +73,7 @@ nav ul li {
   display: inline-block;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 600;
   margin: 0;
   padding: 0 .5em;
   text-align: center;
@@ -108,7 +108,7 @@ nav.menu li:last-child {
     width: 90%;
     margin: 20px auto;
     font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.8em;
 }
 
@@ -163,8 +163,8 @@ blockquote {
 .article-hint {
     color: #95a5a6;
     font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-    font-size: 13px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 600;
     text-align: center;
     margin-bottom: 20px;
     border-bottom-width: 1px;

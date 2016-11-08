@@ -1,7 +1,7 @@
 ---
 layout: post_layout
 title: Git Command Summarization
-time: 2016年11月08日 Thursday
+time: 2016年11月08日 Tuesday
 location: 纽约
 pulished: true
 excerpt_separator: "```"
