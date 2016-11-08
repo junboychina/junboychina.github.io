@@ -11,6 +11,7 @@ Recently I am interested in Probabilistic Grephfical Model(PGM). There is no rel
 ### OVERVIEW
 - SAMIAM Installation
 - A Simple example: Credit-worthiness Evaluation
+- Reference
 
 ### 1. SAMIAM Installation
 
@@ -31,7 +32,7 @@ Also we can choose **Query Mode** in **Mode** menu to monitor the marginals of n
 
 <img src="/assets/img/PGM/1.png" width="400px" />
 
-### 1. A Simple example: Credit-worthiness Evaluation
+### 2. A Simple example: Credit-worthiness Evaluation
 
 Now you need to develop a predictor of credit-worthiness. This predictor can tell people whether a person will make timely payments on his credit card bills.
 
@@ -53,3 +54,6 @@ Here, H denotes "history". The following figure is setting H=excellent and H=una
 
 This result is consistent with our common sense.
 
+### 3. Reference
+
+"Probabilistic Graphical Models Principles and Techniques" by Daphne Koller and Nir Friedman
