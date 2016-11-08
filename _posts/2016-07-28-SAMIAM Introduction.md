@@ -24,6 +24,7 @@ Because SAMIAM relies on Java and needs both the Java Runtime Environment (JRE) 
 > JDK:<http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html#javasejdk>
 
 After installation, we can use it to construct our graph model. First, select **Edit Mode** in **Mode** menu. Then we can change the Conditional Probability Distribution(CPD) of nodes and **Add Edge**. 
+
 <img src="/assets/img/PGM/2.png" width="400px" />
 
 Also we can choose **Query Mode** in **Mode** menu to monitor the marginals of nodes. In **Query** menu, Select **Show All** in **Show monitors**.See the following figure.
