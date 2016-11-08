@@ -1,7 +1,7 @@
 ---
 layout: post_layout
 title: Git Command Summarization
-time: 2016年06月23日 Thursday
+time: 2016年11月08日 Thursday
 location: 纽约
 pulished: true
 excerpt_separator: "```"
@@ -28,6 +28,7 @@ git config --global user.email "your.email@nyu.edu"
 ```
 
 Then we ned to choose a git hosting like GITHUB to start a new git repository.(create a GITHUB account)
+
 Note:"MIT" license is a popular license for open source code that lets people do whatever they want with your code, as long as they (1) credit you (2) don't hold you liable if something bad happens because they used your code.
 
 If you want to clone or download, use
