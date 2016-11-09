@@ -6,13 +6,22 @@ location: 纽约
 pulished: true
 excerpt_separator: "```"
 ---
-In my previous post [SAMIAM Introduction](http://sfadfs>), we have succeeded in helping the bank modele a simple Credit-worthness Predictor! That's fabulous! Do you have the feeling that we have found a new world! I really appreciate my teacher, Prof.Chen, who taught me the course - Probability and Stochastic Process. He inspired my interest in Probability and I was the top 3 student in his class. This lays a strong foundation for PGM.
+In my previous post [SAMIAM Introduction](http://junlitech.com/2016/07/28/SAMIAM-Introduction.html), we have succeeded in helping the bank modele a simple Credit-worthness Predictor! That's fabulous! Do you have the feeling that we have found a new world! I really appreciate my teacher, Prof.Chen, who taught me the course - Probability and Stochastic Process. He inspired my interest in Probability and I was the top 3 student in his class. This lays a strong foundation for PGM.
 
-Today, we will continue our exploration in PGM. This time, we will help Genetic Counselors advise couples with a family history of a genetic disease. Specifically, we need to help couples decide whether to have a biological child or to adopt by assessing the probability that their unborn child will have the disease. 
+## Task Description:
 
-<img,NPC!>
+Today, we will continue our exploration in PGM. This time, we will help Genetic Counselors, Milly Osworth(NPC in the figure below), advise couples with a family history of a genetic disease. Specifically, we need to help couples decide whether to have a biological child or to adopt by assessing the probability that their unborn child will have the disease. 
 
-## OVERVIEW
+<img src="/assets/img/PGM/task.jpg" height="400px" width="640px" />
+
+## Completion:
+
+Upon completion of this task you will gain:
+- 1000 experience
+- 50 reputation with Biologists
+- 100 skill proficiency in PGM
+
+## TASK GUIDE & WALKTHROUGH
 - Problem Analysis
 - Bayes Network 
 - Alternate Bayes Network
@@ -31,12 +40,12 @@ Genetic inheritance patterns are generally consistent from generation to generat
 
 ## 2. Bayes Network
 
-> An example of Cystic Fibrosis: Given the family tree, allele frequency in the population, and the risk factor for all the genotypes. Construct the Bayes Network and help the Genetic Counselors to give advice to the couples in this family.
+> Milly Osworth wants you to predict the Cystic Fibrosis in a family: Given the family tree, allele frequency in the population, and the risk factor for all the genotypes. Construct the Bayes Network and help the Genetic Counselors to give advice to the couples in this family.
 
 #### 2-1. Construct the Template
 First, we need to construct a template which only contains a son(James), his mother(Ira) and father(Robin). Find the factors in this template, then construct Bayes Network for the whole family tree with those factors in the template. Template is as follows:
 
-<img>
+<img src="/assets/img/PGM/5.png" height="400px" width="640px" />
 
 We find there are mainly three kinds of factors in this template:
 
@@ -46,6 +55,16 @@ We find there are mainly three kinds of factors in this template:
 >
 >P(person’s genotype) , its values are based on the allele frequencies in the population
 
-#### 2-2. Construct a Complete Bayes Network
+Calculate the first kind of factor: consider a general case, a genotype may contains "n" allels, then the a person has **C(2 in "n" )+n** possible genotypes, (here C denotes combination). Given all the genotypes' risk factor ,it is easy to complete it.
+
+Calculate the second kind of factor: this is simple because we only need to use different combination and the probability is in 0, 1/2, 1.
+
+Calculate the third kind of factor: given the alleles' frequency, this factor is simply the product of frequencies of its constituent alleles in the population. That's it!
+
+#### 2-2. Construct a Complete Bayesian Network
+
+Having constructed all the necessary factors, you can now build a Bayesian Network for the inherantice of an autosomal trait with one gene. Put all the given information: pedigree, allele frequency, genotype risk factors. Show the Bayesian Network in SAMIAM.
+
+<img src="/assets/img/PGM/6.png" height="400px" width="640px" />
 
 #### 2-3. Giving Advice
