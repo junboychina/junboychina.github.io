@@ -12,11 +12,12 @@ In my previous post [SAMIAM Introduction](http://junlitech.com/2016/07/28/SAMIAM
 
 Today, we will continue our exploration in PGM. This time, we will help Genetic Counselors, Milly Osworth(NPC in the figure below), advise couples with a family history of a genetic disease. Specifically, we need to help couples decide whether to have a biological child or to adopt by assessing the probability that their unborn child will have the disease. 
 
-<img src="/assets/img/PGM/task.jpg" height="400px" width="640px" />
+<img src="/assets/img/PGM/task.jpg" height="300px" width="400px" />
 
 ## Completion:
 
 Upon completion of this task you will gain:
+
 - 1000 experience
 - 50 reputation with Biologists
 - 100 skill proficiency in PGM
@@ -42,16 +43,16 @@ Genetic inheritance patterns are generally consistent from generation to generat
 
 > Milly Osworth wants you to predict the Cystic Fibrosis in a family: Given the family tree, allele frequency in the population, and the risk factor for all the genotypes. Construct the Bayes Network and help the Genetic Counselors to give advice to the couples in this family.
 
-#### 2-1. Construct the Template
+### 2-1. Construct the Template
 First, we need to construct a template which only contains a son(James), his mother(Ira) and father(Robin). Find the factors in this template, then construct Bayes Network for the whole family tree with those factors in the template. Template is as follows:
 
-<img src="/assets/img/PGM/5.png" height="400px" width="640px" />
+<img src="/assets/img/PGM/5.png" height="200px" width="320px" />
 
 We find there are mainly three kinds of factors in this template:
 
->P(person’s phenotype | person’s genotype)
+>P(person’s phenotype &#124; person’s genotype)
 >
->P(person’s genotype | genotype of person’s first parent, genotype of person’s second parent)
+>P(person’s genotype &#124; genotype of person’s first parent, genotype of person’s second parent)
 >
 >P(person’s genotype) , its values are based on the allele frequencies in the population
 
@@ -61,10 +62,10 @@ Calculate the second kind of factor: this is simple because we only need to use 
 
 Calculate the third kind of factor: given the alleles' frequency, this factor is simply the product of frequencies of its constituent alleles in the population. That's it!
 
-#### 2-2. Construct a Complete Bayesian Network
+### 2-2. Construct a Complete Bayesian Network
 
 Having constructed all the necessary factors, you can now build a Bayesian Network for the inherantice of an autosomal trait with one gene. Put all the given information: pedigree, allele frequency, genotype risk factors. Show the Bayesian Network in SAMIAM.
 
-<img src="/assets/img/PGM/6.png" height="400px" width="640px" />
+<img src="/assets/img/PGM/6.png" height="300px" width="640px" />
 
-#### 2-3. Giving Advice
+### 2-3. Giving Advice
