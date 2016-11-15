@@ -66,7 +66,7 @@ Calculate the third kind of factor: given the alleles' frequency, this factor is
 
 Having constructed all the necessary factors, you can now build a Bayesian Network for the inherantice of an autosomal trait with one gene. Put all the given information: pedigree, allele frequency, genotype risk factors. Show the Bayesian Network in SAMIAM.
 
-<img src="/assets/img/PGM/6.png" height="450px" width="640px" />
+<img src="/assets/img/PGM/6.png" height="410px" width="640px" />
 
 ### 2-3. Giving Advice
 
@@ -78,8 +78,8 @@ James and Rene are debating whether to have another child or adopt a child. They
 
 The following is the family tree and the probability when no information is provided. We find that the probability their unborn child will have cystic fibrosis is 19.70&#37;
 
-<img src="/assets/img/PGM/7.png" height="450px" width="640px" />
+<img src="/assets/img/PGM/7.png" height="410px" width="640px" />
 
 Then we add the information that James' parents have one Ff genotype and his cousin Eva has cystic fibrosis. They probability their unborn child will have cystic fibrosis increase to 38.50&#37;  Also we notice that the probability didin't change whether we have the information James's cousin Eva's information. Because James's parents' information is observed and the active trail is blocked. The influence didn't transfer to his unborn child. 
 
-<img src="/assets/img/PGM/8.png" height="450px" width="640px" />
+<img src="/assets/img/PGM/8.png" height="410px" width="640px" />
