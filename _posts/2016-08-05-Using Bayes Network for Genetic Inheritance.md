@@ -4,7 +4,7 @@ title: Using Bayes Network for Genetic Inheritance
 time: 2016年08月05日 Friday
 location: 纽约
 pulished: true
-excerpt_separator: "```"
+excerpt_separator: "## Completion:"
 ---
 In my previous post [SAMIAM Introduction](http://junlitech.com/2016/07/28/SAMIAM-Introduction.html), we have succeeded in helping the bank modele a simple Credit-worthness Predictor! That's fabulous! Do you have the feeling that we have found a new world! I really appreciate my teacher, Prof.Chen, who taught me the course - Probability and Stochastic Process. He inspired my interest in Probability and I was the top 3 student in his class. This lays a strong foundation for PGM.
 

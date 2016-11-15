@@ -4,7 +4,7 @@ title: SAMIAM Introduction
 time: 2016年07月28日 Thursday
 location: 纽约
 pulished: true
-excerpt_separator: "```"
+excerpt_separator: "### 1. SAMIAM Installation"
 ---
 Recently I am interested in Probabilistic Grephfical Model(PGM). There is no related course in our school and I have to learn it by myself. Luckily I find some textbooks and online courses about PGM. The most important thing in PGM is Networks such as Bayes Network and Markov Network. So a network visualization software like SAMIAM is important for us to analyse our model intuitively.
 
