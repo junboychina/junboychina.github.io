@@ -9,10 +9,10 @@ workHistory:
 - work2:
   company: NYU Multimedia and Visual Computing Lab
   location: ECE department of NYU, Brooklyn, NY
-  title: Research Assistant
+  title: Graduate Thesis
   started: 2016
   duration: (2016.5 - now)
-  description: Machine Learning, Deep Learning, Data mining in Medical Health
+  description: Deep Learning, Data mining in Medical Health
 
 - work1:
   company: NYU Wireless
@@ -20,7 +20,7 @@ workHistory:
   title: Research Assistant
   started: 2016
   duration: (2016.1 - now)
-  description: Localization based on Machine Learning, Probabilistic Graphical Model
+  description: Localization based on Machine Learning, Deep Learning
 
 educationHistory:
 - education3:
@@ -29,7 +29,7 @@ educationHistory:
   major: Electrical Engineering
   started: 2015
   #duration: (2015.9- 2017.7)
-  description: Work as Research Assistant in NYU Wireless lab and MMVC lab.
+  description: DSP, Image Processing, Medical Image, Localization, Top Student Award
 
 - education2:
   organization: Nanjing University of Aeronautics and Astronautics
@@ -65,7 +65,7 @@ programmingSkills:
   percentage: 60%
 - Python:
   name: Python
-  percentage: 60%
+  percentage: 80%
 - R:
   name: R
   percentage: 60%
