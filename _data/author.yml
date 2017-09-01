@@ -1,11 +1,19 @@
 # Author settings
 name: Jun Li
-title: MS student in New York University
+title: PhD Candidate in New York University
 address: New York City, U.S.
 email: jl7333@nyu.edu
 github: junboychina
 gavatar: /assets/img/avatar.JPG
 workHistory:
+- work2:
+  company: New York University, ECE Department
+  location: ECE department of NYU, Brooklyn, NY
+  title: Teaching Assistant
+  started: 2017
+  duration: (2017.9 - now)
+  description: TA of EE-UY 3604 Electromagnetic Waves
+
 - work2:
   company: NYU Multimedia and Visual Computing Lab
   location: ECE department of NYU, Brooklyn, NY
@@ -23,13 +31,21 @@ workHistory:
   description: Localization based on Machine Learning, Deep Learning
 
 educationHistory:
+- education4:
+  organization: New York University
+  degree: PhD
+  major: Electrical Engineering
+  started: 2017
+  #duration: (2017.9- now)
+  description: Wireless Communication, Signal Processing, Machine Learning
+
 - education3:
   organization: New York University
-  degree: Master
+  degree: Master of Science
   major: Electrical Engineering
   started: 2015
   #duration: (2015.9- 2017.7)
-  description: DSP, Image Processing, Medical Image, Localization, Top Student Award
+  description: DSP, Image Processing, Medical Image, Localization, Top Student Award, the Winner of the Myron M. Rosenthal Award for Best MS Academic Achievement for this year 
 
 - education2:
   organization: Nanjing University of Aeronautics and Astronautics
